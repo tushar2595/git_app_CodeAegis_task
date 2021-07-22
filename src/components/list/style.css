@@ -1,0 +1,16 @@
+.list-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 30px;
+}
+.search-input {
+  height: 30px;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 300px;
+  margin: 10px;
+}
