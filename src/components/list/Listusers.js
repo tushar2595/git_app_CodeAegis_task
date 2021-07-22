@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { connect } from 'react-redux'
 import { fetchUsers } from '../../redux/usersActions';
 import "./style.css";
-const ListUsers = ({ userData, fetchUsers, loading }) => {
-    console.log(userData.loading, 'lllllllllll');
+const ListUsers = ({ userData, fetchUsers }) => {
     const [gitRepo, setgitRepo] = useState([]);
     const [searchValue, setSearchValue] = useState("");
     useEffect(() => fetchUsers(), []);
